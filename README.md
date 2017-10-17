@@ -68,7 +68,7 @@ To push tags to remote origin: `git push origin --tags`
 
 ## Authors
 
-* **Joe Schmo**  - *Lead Developer* - [USGS Web Informatics & Mapping](https://wim.usgs.gov/)
+* **Jordan Doe**  - *Lead Developer* - [USGS Web Informatics & Mapping](https://wim.usgs.gov/)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -79,7 +79,7 @@ This project is licensed under the Creative Commons CC0 1.0 Universal License - 
 ## Suggested Citation
 In the spirit of open source, please cite any re-use of the source code stored in this repository. Below is the suggested citation:
 
-`insert suggested citation here`
+`This project contains code produced by the Web Informatics and Mapping (WiM) team at the United States Geological Survey (USGS). As a work of the United States Government, this project is in the public domain within the United States.`
 
 
 ## Acknowledgments
