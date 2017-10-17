@@ -51,10 +51,6 @@ Add additional notes about how to deploy this on a live system. **Do not include
 
 Please read [CONTRIBUTING.md]() for details on the process for submitting pull requests to us. Please read [CODE_OF_CONDUCT.md]() for details on adhering by the [USGS Code of Scientific Conduct](https://www2.usgs.gov/fsp/fsp_code_of_scientific_conduct.asp).
 
-
-
-
-
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
@@ -63,12 +59,12 @@ Advance the version when adding features, fixing bugs or making minor enhancemen
 
 To push tags to remote origin: `git push origin --tags`
 
-
 *Note that your alias for the remote origin may differ.
 
 ## Authors
 
 * **Jordan Doe**  - *Lead Developer* - [USGS Web Informatics & Mapping](https://wim.usgs.gov/)
+* **Jessie Smith** - *Developer* -  [USGS Web Informatics & Mapping](https://wim.usgs.gov/)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -86,5 +82,4 @@ In the spirit of open source, please cite any re-use of the source code stored i
 
 * Hat tip to anyone who's code was used
 * Inspiration
-* etc
-
+WiM is a part of the [Upper Midwest Water Science Center](https://www.usgs.gov/centers/wisconsin-water-science-center).
