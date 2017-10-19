@@ -1,5 +1,16 @@
-License
-=======
+## (If Required) A few parts of this project are not in the public domain
+(Examples Below)
+### Files licensed under the SIL Open Font License
+
+(Example) The FontAwesome font files in `XXX` are from [Font Awesome](http://fontawesome.io/) by Dave Gandy under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL). The FontAwesome styles located in `XXX` are licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+(Other Examples)
+
+### (Example Project Dependancy) AngularClass project files
+
+This project originated as the [angular2-webpack-starter](https://github.com/AngularClass/angular2-webpack-starter) and was created by [AngularClass](https://github.com/AngularClass). These files are licensed under the MIT license located in the root directory as `AngularClass License.txt`.
+
+## The rest of this project is in the public domain
 
 Unless otherwise noted, This project is in the public domain in the United
 States because it contains materials that originally came from the United
@@ -10,13 +21,9 @@ https://www2.usgs.gov/visual-id/credit_usgs.html#copyright
 Additionally, we waive copyright and related rights in the work
 worldwide through the CC0 1.0 Universal public domain dedication.
 
+## CC0 1.0 Universal Summary
 
-CC0 1.0 Universal Summary
--------------------------
-
-This is a human-readable summary of the
-[Legal Code (read the full text)][1].
-
+This is a human-readable summary of the [Legal Code (read the full text)](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
 
 ### No Copyright
 
@@ -27,7 +34,6 @@ extent allowed by law.
 
 You can copy, modify, distribute and perform the work, even for commercial
 purposes, all without asking permission.
-
 
 ### Other Information
 
@@ -40,7 +46,3 @@ this deed makes no warranties about the work, and disclaims liability for
 all uses of the work, to the fullest extent permitted by applicable law.
 When using or citing the work, you should not imply endorsement by the
 author or the affirmer.
-
-
-
-[1]: https://creativecommons.org/publicdomain/zero/1.0/legalcode
