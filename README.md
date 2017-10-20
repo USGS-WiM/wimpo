@@ -85,4 +85,8 @@ In the spirit of open source, please cite any re-use of the source code stored i
 
 * Hat tip to anyone who's code was used
 * Inspiration Note 
+
+## About WIM
+* This project authored by the USGS WIM team
+* WIM is a small team of developers and dev-ops architects who build software tools, software applications, databases, and data managagement systems to support USGS science and other federal government cooperators.
 * WiM is a part of the [Upper Midwest Water Science Center](https://www.usgs.gov/centers/wisconsin-water-science-center).
