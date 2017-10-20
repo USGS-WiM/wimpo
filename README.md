@@ -1,3 +1,6 @@
+![WiM](wimlogo.png)
+
+
 # Project Title
 
 One Paragraph of project description goes here
@@ -81,5 +84,5 @@ In the spirit of open source, please cite any re-use of the source code stored i
 ## Acknowledgments
 
 * Hat tip to anyone who's code was used
-* Inspiration
-WiM is a part of the [Upper Midwest Water Science Center](https://www.usgs.gov/centers/wisconsin-water-science-center).
+* Inspiration Note 
+* WiM is a part of the [Upper Midwest Water Science Center](https://www.usgs.gov/centers/wisconsin-water-science-center).
