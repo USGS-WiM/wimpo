@@ -5,10 +5,6 @@
 
 One Paragraph of project description goes here
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
 What things you need to install the software and how to install them
@@ -16,6 +12,10 @@ What things you need to install the software and how to install them
 ```
 Give examples
 ```
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Installing
 
@@ -66,8 +66,8 @@ To push tags to remote origin: `git push origin --tags`
 
 ## Authors
 
-* **Jordan Doe**  - *Lead Developer* - [USGS Web Informatics & Mapping](https://wim.usgs.gov/)
-* **Jessie Smith** - *Developer* -  [USGS Web Informatics & Mapping](https://wim.usgs.gov/)
+* **[Jordan Doe](PROFILE_PAGE_URL_HERE)**  - *Lead Developer* - [USGS Web Informatics & Mapping](https://wim.usgs.gov/)
+* **[Jessie Smith](PROFILE_PAGE_URL_HERE)** - *Developer* -  [USGS Web Informatics & Mapping](https://wim.usgs.gov/)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
