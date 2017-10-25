@@ -4,12 +4,12 @@
   "description": "REPOSITORY_DESCRIPTION",
   "status": "REPOSITORY_STATUS",
   "homepage": "REPOSITORY_HOMEPAGE",
-  "downloadURL": "https://github.com/usgs/REPOSITORY_NAME/archive/master.zip",
+  "downloadURL": "https://github.com/usgs-wim-wim/REPOSITORY_NAME/archive/master.zip",
 
   "openSourceProject": 1,
-  "license": "https://github.com/usgs/REPOSITORY_NAME/blob/master/LICENSE.md",
+  "license": "https://github.com/usgs-wim/REPOSITORY_NAME/blob/master/LICENSE.md",
   "vcs": "git",
-  "repository": "https://github.com/usgs/REPOSITORY_NAME.git",
+  "repository": "https://github.com/usgs-wim/REPOSITORY_NAME.git",
 
   "tags": [
     "TAG1",
