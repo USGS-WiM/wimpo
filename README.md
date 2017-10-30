@@ -52,11 +52,11 @@ Add additional notes about how to deploy this on a live system. **Do not include
 
 ## Contributing
 
-Please read [CONTRIBUTING.md]() for details on the process for submitting pull requests to us. Please read [CODE_OF_CONDUCT.md]() for details on adhering by the [USGS Code of Scientific Conduct](https://www2.usgs.gov/fsp/fsp_code_of_scientific_conduct.asp).
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on the process for submitting pull requests to us. Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on adhering by the [USGS Code of Scientific Conduct](https://www2.usgs.gov/fsp/fsp_code_of_scientific_conduct.asp).
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](../../tags). 
 
 Advance the version when adding features, fixing bugs or making minor enhancement. Follow semver principles. To add tag in git, type git tag v{major}.{minor}.{patch}. Example: git tag v2.0.5
 
@@ -69,7 +69,7 @@ To push tags to remote origin: `git push origin --tags`
 * **[Jordan Doe](PROFILE_PAGE_URL_HERE)**  - *Lead Developer* - [USGS Web Informatics & Mapping](https://wim.usgs.gov/)
 * **[Jessie Smith](PROFILE_PAGE_URL_HERE)** - *Developer* -  [USGS Web Informatics & Mapping](https://wim.usgs.gov/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](../../graphs/contributors) who participated in this project.
 
 ## License
 
