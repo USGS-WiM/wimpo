@@ -11,4 +11,4 @@ Users do not need a license or permission from the USGS to use this software. Us
 As a work of the United States Government, this USGS product is in the public domain (http://www.usa.gov/publicdomain/label/1.0/) within the United States. You can copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission. Additionally, USGS waives copyright and related rights in the work worldwide through CC0 1.0 Universal Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/).
 
 ### Exceptions
-This project has numerous dependencies from open-source software projects distributed through [GitHub](https://github.com/) and [node package manager](https://www.npmjs.com/). The re-use and distribution of those software packages is subject to the licences of each of those packages, respectively. For a list of dependencies, see the package.json file and bower.json file (if available) at the root of this repository.
+This project may have numerous dependencies from other open-source software projects. The re-use and distribution of those software packages may be subject to the licences of each of those dependencies.
