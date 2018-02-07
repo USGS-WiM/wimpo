@@ -1,48 +1,14 @@
-## (If Required) A few parts of this project are not in the public domain
-(Examples Below)
-### Files licensed under the SIL Open Font License
+# Software License Information
+This software is a product of the U.S. Geological Survey (USGS), an agency of the United States Department of Interior, which is part of the U.S. Government.
 
-(Example) The FontAwesome font files in `XXX` are from [Font Awesome](http://fontawesome.io/) by Dave Gandy under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL). The FontAwesome styles located in `XXX` are licensed under the [MIT License](https://opensource.org/licenses/MIT).
+#### Cost:
+This software is freely distributed. There is no fee to download and (or) use this software.
 
-(Other Examples)
+#### License:
+Users do not need a license or permission from the USGS to use this software. Users can download and install as many copies of the software as they need. See Exceptions below. 
 
-### (Example Project Dependancy) AngularClass project files
+### Public Domain:
+As a work of the United States Government, this USGS product is in the public domain (http://www.usa.gov/publicdomain/label/1.0/) within the United States. You can copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission. Additionally, USGS waives copyright and related rights in the work worldwide through CC0 1.0 Universal Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/).
 
-This project originated as the [angular2-webpack-starter](https://github.com/AngularClass/angular2-webpack-starter) and was created by [AngularClass](https://github.com/AngularClass). These files are licensed under the MIT license located in the root directory as `AngularClass License.txt`.
-
-## The rest of this project is in the public domain
-
-Unless otherwise noted, This project is in the public domain in the United
-States because it contains materials that originally came from the United
-States Geological Survey, an agency of the United States Department of
-Interior. For more information, see the official USGS copyright policy at
-https://www2.usgs.gov/visual-id/credit_usgs.html#copyright
-
-Additionally, we waive copyright and related rights in the work
-worldwide through the CC0 1.0 Universal public domain dedication.
-
-## CC0 1.0 Universal Summary
-
-This is a human-readable summary of the [Legal Code (read the full text)](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
-
-### No Copyright
-
-The person who associated a work with this deed has dedicated the work to
-the public domain by waiving all of his or her rights to the work worldwide
-under copyright law, including all related and neighboring rights, to the
-extent allowed by law.
-
-You can copy, modify, distribute and perform the work, even for commercial
-purposes, all without asking permission.
-
-### Other Information
-
-In no way are the patent or trademark rights of any person affected by CC0,
-nor are the rights that other persons may have in the work or in how the
-work is used, such as publicity or privacy rights.
-
-Unless expressly stated otherwise, the person who associated a work with
-this deed makes no warranties about the work, and disclaims liability for
-all uses of the work, to the fullest extent permitted by applicable law.
-When using or citing the work, you should not imply endorsement by the
-author or the affirmer.
+### Exceptions
+This project may have numerous dependencies from other open-source software projects. The re-use and distribution of those software packages may be subject to the licences of each of those dependencies.
