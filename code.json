@@ -25,6 +25,9 @@
     "laborHours": null,
 
     "tags": [
+      "client",
+      "service",
+      "script",
       "guidance",
       "template"
     ],
