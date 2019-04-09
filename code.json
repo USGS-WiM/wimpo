@@ -1,6 +1,6 @@
 [
   {
-    "name": "Wimpo",
+    "name": "wimpo",
     "organization": "U.S. Geological Survey",
     "description": "Documents best practices for software development within WIM",
     "version": "v0.0.0",
@@ -29,11 +29,18 @@
       "service",
       "script",
       "guidance",
-      "template"
+      "template",
+      "interactive map",
+      "api",
+      "webapp"
     ],
 
     "languages": [
-      "Markdown"
+      "markdown",
+      "jquery",
+      "python",
+      "leaflet",
+      "etc"
     ],
 
     "contact": {
