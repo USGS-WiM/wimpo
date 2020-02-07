@@ -1,4 +1,4 @@
-![WiM](wimlogo.png)
+![WiM](wim.png)
 
 
 # Project Title
@@ -46,7 +46,7 @@ Add additional notes about how to deploy this on a live system. **Do not include
 ## Built With
 
 * [Angular](https://angular.io/) - The main web framework used
-* [Clarity UI](https://vmware.github.io/clarity/) - Top-level UI framework if you have one 
+* [Clarity UI](https://vmware.github.io/clarity/) - Top-level UI framework if you have one
 * [NPM](https://www.npmjs.com/) - Dependency Management
 * [Others](https://www.npmjs.com/) - Any other high-level dependencies
 
@@ -56,7 +56,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on the process for su
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](../../tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](../../tags).
 
 Advance the version when adding features, fixing bugs or making minor enhancement. Follow semver principles. To add tag in git, type git tag v{major}.{minor}.{patch}. Example: git tag v2.0.5
 
@@ -84,7 +84,7 @@ In the spirit of open source, please cite any re-use of the source code stored i
 ## Acknowledgments
 
 * Hat tip to anyone who's code was used
-* Inspiration Note 
+* Inspiration Note
 
 ## About WIM
 * This project authored by the [USGS WIM team](https://wim.usgs.gov)
