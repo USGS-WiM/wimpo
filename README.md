@@ -35,13 +35,19 @@ until finished
 
 ## Building and testing
 
+Explain required node version
+
+`node -v` needs to be {version}
+
 Explain how to run the debugging 'watch' script for this repo, if applicable
 
 Explain how to run unit tests, if applicable
 
-### Development Workflow
+## Development Workflow
 
-**Instructions below are for developers actively working on the repo**
+Explain the desired workflow. Workflow may deviate from the instructions below depending on the projects needs.
+
+**Instructions below are for developers actively working on the repo.**
 
 An issue will be assigned to you via Github. Your workflow begins after assignment:
 
