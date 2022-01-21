@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="author" content="Mitch Samuels">
+    <meta name="theme-color" content="#8EA5C5">
+    <link rel="shortcut icon" id="favicon" type="image/ico" href="favicon-wim.png" />
+
+    <title>Error | Web Informatics and Mapping</title>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/custom.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+
+    <!-- SCRIPTS -->
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+
+    <script>
+        var url = window.location.href;
+        url = url.toLowerCase();
+        /* Add site url below */
+        if (url != 'https://stn.wim.usgs.gov/error.html') {
+
+            var request = new XMLHttpRequest();
+            request.open('GET', url, true);
+            request.onload = function() {
+              if (request.status >= 200 && request.status < 400) {
+                // Success!
+                window.location = url;
+              } else {
+                // We reached our target, but it returned an error
+                //window.location = '/';
+                window.history.pushState(null, "", '/error.html');
+              }
+            };
+            request.onerror = function() {
+              // There was a connection error of some sort, or does not exist
+              //window.location = '/';
+              window.history.pushState(null, "", '/error.html');
+            };
+            request.send();
+        }
+    </script>
+
+</head>
+<body>
+
+    <!-- USGS top bar, universal for USGS sites -->
+    <div id="usgscolorband">
+        <div id="usgsbanner">
+
+            <div class="max_wrap">
+
+                <div id="usgsidentifier"><a href="https://www.usgs.gov/"><img src="imgs/usgslogo.png" alt="USGS - science for a changing world" title="U.S. Geological Survey Home Page" width="178" height="72" /></a></div>
+                <div id="usgsccsabox">
+                    <div id="usgsccsa" style="text-align:right;">
+                    	<br /><a href="https://www.usgs.gov/">USGS Home</a>
+                    	<br /><a href="https://answers.usgs.gov/">Contact USGS</a>
+                    	<br /><a href="https://search.usgs.gov/">Search USGS</a>
+                		<br />
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <nav class="nav-main">
+
+        <a href="/#/">
+            <span class="nav-brand full-only"><img src="imgs/wimvector.png">Web Informatics and Mapping</span>
+            <span class="nav-brand mobile-only"><img src="imgs/wimvector.png">WiM</span>
+        </a>
+        <i class="ion-navicon mobile-only mobile-menu-btn"></i>
+
+
+
+    </nav>
+
+
+
+    <div class="error-box">
+
+        <h1>Error. Page not found.</h1>
+        <h2>Something went wrong. Please check to be sure you have entered your URL correctly.</h2>
+        <h3>You may be looking for <a href="#">put your site here</a>.</h3>
+
+    </div>
+
+
+
+
+    <footer class="footer">
+
+        <p class="address">
+            WIM @ Upper Midwest Water Science Center
+            <br>
+            1 Gifford Pinchot Drive, Madison WI 53726
+        </p>
+
+    </footer>
+
+
+    <!-- BEGIN USGS Footer Template -->
+    <div id="usgsfooter">
+        <p id="usgsfooterbar">
+            <a href="https://www.usgs.gov/accessibility" target="_blank" title="Accessibility Policy (Section 508)">Accessibility</a>
+            <a href="https://www.usgs.gov/foia" target="_blank" title="Freedom of Information Act">FOIA</a>
+            <a href="https://www.usgs.gov/privacy-policies" target="_blank" title="Privacy policies of the U.S. Geological Survey.">Privacy</a>
+            <a href="https://www.usgs.gov/legal" target="_blank" title="Policies and notices that govern information posted on USGS Web sites.">Policies and Notices</a>
+        </p>
+
+        <p id="usgsfootertext">
+            <a href="https://www.usa.gov/" target="_blank"><img src="imgs/footer_graphic_usagov.jpg" alt="USA.gov logo" title="USAGov: Government Made Easy" width="90" height="26" /></a>
+            <a href="https://www.doi.gov/" target="_blank">U.S. Department of the Interior</a> |
+            <a href="https://www.usgs.gov/" target="_blank">U.S. Geological Survey</a><br />
+
+            URL: https://wim.usgs.gov/<br />
+
+            Page Contact Information: <a href="mailto:msamuels@usgs.gov">Mitch Samuels</a><br />
+
+            Page Last Modified: Thursday, 20-January-2022 4:59:15 CDT
+        </p>
+    </div>
+
+
+</body>
+</html>

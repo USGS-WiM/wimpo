@@ -1,0 +1,362 @@
+/*  ======================================================
+
+        main.css
+
+        Stylesheet for Badriver Splash Screen
+
+        Author:     Mitch Samuels;
+        Email:      msamuels@usgs.gov;
+
+        Table of Contents:
+        #0. Technical: body/html, fonts, imports, etc;
+        #1. Universal, cross-page styles for everything
+        #2. Specific page element styles
+        #3. Media queries
+
+    ====================================================== */
+
+
+/*=============================================================================================
+   #   #    000           XXXXX  XXXXX  XXXXX  X   X  X   X  XXXXX  XXXXX  XXXXX  X
+ ########  00  0            X    X      X      X   X  XX  X    X    X      X   X  X
+  #   #    0 0 0            X    XXX    X      XXXXX  X X X    X    X      XXXXX  X
+########   0  00            X    X      X      X   X  X  XX    X    X      X   X  X
+ #   #      000             X    XXXXX  XXXXX  X   x  X   X  XXXXX  XXXXX  X   X  XXXXX
+==============================================================================================*/
+
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    -webkit-font-smoothing:antialiased;
+}
+body{
+    font-family: 'Roboto Slab', sans-serif;
+    color:#383838;
+    padding: 0; margin: 0 auto;
+    width: 100%;
+}
+/* Width control, stops page from getting too wide */
+.width_control{
+    width:100%; max-width: 980px;
+    margin: 0 auto;
+}
+/*Main body wrapper*/
+.main_body_content{
+    padding-top: 45px; padding-bottom: 45px;
+}
+/*Hide for all but 760px or lower width*/
+.show760{display: none;}
+
+/*============================================================================================= Text/Font styling */
+/*All Headers*/
+h1, h2, h3. h4, h5, h6{
+    padding:10px;
+    margin: 0 auto;
+}
+/*h1, h2, h3 - oswald headers*/
+h1,h2,h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+/*Header sizes*/
+h1{font-size: 28pt;}h2{font-size: 20pt;}h3{font-size: 14pt;}
+/*h4, h5, h6 - Slab headers */
+h4,h5,h6{
+    margin: 0  auto;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 400;
+    font-style: italic;;
+}
+/*Header sizes*/
+h4{font-size: 20pt;}h5{font-size: 16pt;}h6{font-size: 12pt;}
+/*Superscript*/
+sup{
+    font-size: 50%;
+}
+/*Body font size*/
+.main_body_content p{
+    font-size: 11pt;
+}
+/*Body list font size*/
+.main_body_content ul{
+    font-size: 11pt;
+}
+/*Generic link styles*/
+a{
+    color:#205493;
+    transition:0.3s;
+    text-decoration: none;
+}
+/*Link hover*/
+a:hover{
+    color:#0089e5;
+    transition:0.3s;
+    text-decoration: none;
+}
+
+
+/*=============================================================================================
+   #   #     111         X   X  X   X  XXXXX  X   X  XXXXX  XXXXX  XXXXX  XXXXX  X
+ ########  11 11         X   X  X   X    X    X   X  X      X   X  X      X   X  X
+  #   #       11         X   X  X   X    X    X   X  XXX    XXXX   XXXXX  XXXXX  X
+########      11         X   X  X   X    X     X X   X      X  X       X  X   X  X
+ #   #     1111111       XXXXX  X   X  XXXXX    X    XXXXX  X   X  XXXXX  X   X  XXXXX
+==============================================================================================*/
+
+/*============================================================================================= Nav Bar */
+.main_nav_bar{
+    height:60px; width: 100%;
+    background-color: #0071BC;
+}
+/*Class added on scroll - fixed pos*/
+.nav_bar_fixed{
+    z-index:1000;
+    position: fixed;
+    top: 0px; left: 0px;
+    opacity: 0.98;
+    transition:0.2s;
+}.nav_bar_fixed:hover{
+    opacity: 1;
+    transition:0.2s;
+}
+/*Logo placement*/
+.main_nav_branding{
+    width: auto;
+    max-width: 100%;
+    float: left;
+    color: white;
+    font-size: 18pt;
+    line-height: 60px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+/*============================================================================================= Featurette */
+/*Feature, like box under home slider*/
+.main_feat_1{
+    width:100%;
+    min-height: 50px;
+    background-color: #f1f2f2;
+    padding-top: 45px; padding-bottom: 45px;
+}.main_feat_1 p{
+    font-size: 11pt;
+    line-height: 1.86em;
+}
+
+/*============================================================================================= Footer */
+/*Footer Wrapper*/
+.footer{
+    padding-top: 25px; padding-bottom: 25px;
+    background-color: #222B31;
+    height: auto;
+    overflow: auto;
+    font-size: 14pt;
+    font-weight: 300;
+}
+.footer .person{
+    width:25%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 10pt;
+    line-height: 1.5em;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: center;
+}
+.footer .person b{
+    font-size: 12pt;
+}
+.footer .person a{
+    font-weight: bolder;
+    transition: 0.2s;
+}
+.footer .person a:hover{
+    opacity: 1;
+    transition: 0.2s;
+}
+.footer .person a:active{
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.footer .address{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.5em;
+    padding: 20px 0;
+    font-size: 11pt;
+    letter-spacing: 1px;
+}
+.footer .address b{
+    display: block;
+}
+
+/*=============================================================================================
+   #   #    222        XXXXX  XXXXX  XXXXX  XXXXX  XXXXX  XXXXX  XXXXX  XXXXX  XXXXX
+ ######## 22  22       X      X   X  X      X        X    X        X    X      X
+  #   #      22        XXXXX  XXXX   XXX    X        X    XXX      X    X      XXXXX
+########   222             X  X      X      X        X    X        X    X          X
+ #   #    222222       XXXXX  X      XXXXX  XXXXX  XXXXX  X      XXXXX  XXXXX  XXxxx
+==============================================================================================*/
+/*============================================================================================= Home page mappers */
+/*Wrapper for individual map boxes*/
+.mapper_wrapper{
+    width:100%;
+    display: table;
+    clear: both;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+/*left side, image/screenshot*/
+.left_mapper_image{
+    width:45%;
+    float: left;
+}.left_mapper_image img{
+    width:100%;
+    height: auto;
+}
+/*Description on right*/
+.right_mapper_desc{
+    float:right;
+    width:52.5%;
+    padding-left: 2.5%;
+}.right_mapper_desc h2{
+    position: relative; top:-8px;
+}.right_mapper_desc p{
+    padding: 0; margin-top: 0px;
+}.right_mapper_desc h2 a{
+    padding: 0; margin: 0 auto;
+}
+/*Horizontal rule, padding below*/
+hr{
+    margin-bottom: 35px;
+    color: #cccccc;
+    background-color: #cccccc;
+    opacity: 0.2;
+}
+
+/*============================================================================================= Publications page */
+.publications ul{
+    list-style-type: none;
+    font-size: 14pt;
+    padding: 0;
+}
+.publications ul li{
+    padding-top: 18px;
+    padding-left: 10px; padding-right: 10px;
+    padding-bottom: 18px;
+    word-wrap: break-word;
+}
+.publications ul li:nth-child(even){
+    background-color: #fff;
+}
+.publications ul li:nth-child(odd){
+    background-color: #f4f4f4;
+}
+
+
+
+
+/*=============================================================================================
+   #   #  33333      XXXXX  XXXXX  XXXXX     XXXXX   X   X  XXXXX  XXXXX  XXXXX  XXXXX  XXXXX
+ ########   33       X      X      X         X   X   X   X  X      X   X    X    X      X
+  #   #   3333       X      XXXXX  XXXXX     X   X   X   X  XXX    XXXX     X    XXX    XXXXX
+########   33        X          X      X     X   X   X   X  X      X  X     X    X          X
+ #   #  33333        XXXXX  XXXXX  XXXXX     XXXXXX  XXXXX  XXXXX  X   X  XXXXx  XXXXx  XXXXX
+==============================================================================================*/
+
+/*Media Query @1024 expands containers to full width.*/
+@media(max-width:1024px){
+    /*Add padding to main body content, change width*/
+    .main_body_content{width:92%; padding-left: 4%; padding-right: 4%;}
+    /*============================================================================================= Nav Bar */
+    /*Add left padding on logo*/
+    .main_nav_branding{padding-left: 15px;}
+    /*Add right padding to nav links*/
+    .main_nav_rightlinks ul{padding-right: 5%;}
+    /*Shrink li width to 120 from 160px*/
+    .main_nav_rightlinks ul li{width: 115px;}
+    /*Change nav link size to 9 from 11pt*/
+    .main_nav_rightlinks ul li a{font-size: 9pt;}
+    /*============================================================================================= Featurette */
+    /*Change feature width, add padding*/
+    .main_feat_1{width:92%; padding-left: 4%; padding-right: 4%;}
+    /*============================================================================================= Footer */
+    /*Change footer font size*/
+    .footer{font-size: 12pt;}
+    /*Change widths, add padding to left and right*/
+    .rightfoot{padding-right: 4%; width:29%;}.leftfoot{width:29%; padding-left: 4%;}
+
+    .right_mapper_desc p{
+        font-size: 9pt;
+    }
+
+
+
+}
+/*Media Query below 760 is mobile.*/
+@media(max-width:760px){
+
+    .show760{display: block;}
+    .hide760{display: none;}
+
+    /*Add padding to main body content, change width*/
+    .main_body_content{width:94%; padding-left: 3%; padding-right: 3%;}
+    /*============================================================================================= Nav Bar */
+    .main_nav_bar{height:50px; width: 100%;}
+    /*Logo placement*/
+    .main_nav_branding{min-width: 100%; text-align: center; line-height: 50px; padding-left: 0;}
+    /*Styling for mobile nav*/
+
+    /*============================================================================================= Home page mappers */
+    /*Wrapper for individual map boxes*/
+    .mapper_wrapper{
+        width:100%;
+        display: table;
+        clear: both;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+    /*left side, image/screenshot*/
+    .left_mapper_image{
+        width:100%;
+        text-align: center;
+        float: left;
+    }.left_mapper_image img{
+        width:80%;
+        height: auto;
+    }
+    /*Description on right*/
+    .right_mapper_desc{
+        width:95%;
+        padding-left: 2.5%;
+    }.right_mapper_desc h2{
+        position: relative; top:8px;
+    }.right_mapper_desc p{
+        font-size:11pt;
+        padding-top: 10px;
+    }
+
+    /*Change footer font size*/
+    .footer{font-size: 14pt;}
+    /*Change widths, add padding to left and right*/
+    .footer .person{
+        width: 50%;
+    }
+
+
+}
+
+/*Only hide USGS top right box for under 410px, center USGS logo */
+@media(max-width:410px){
+    #usgsidentifier{
+        width:100%;
+        text-align: center;
+    }
+    #usgsccsabox{
+        display: none;
+    }
+}
