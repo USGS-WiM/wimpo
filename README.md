@@ -122,4 +122,4 @@ In the spirit of open source, please cite any re-use of the source code stored i
 ## About WIM
 * This project authored by the [USGS WIM team](https://wim.usgs.gov)
 * WIM is a team of developers and technologists who build and manage tools, software, web services, and databases to support USGS science and other federal government cooperators.
-* WIM is a part of the [Upper Midwest Water Science Center](https://www.usgs.gov/centers/wisconsin-water-science-center).
+* WIM is a part of the [Upper Midwest Water Science Center](https://www.usgs.gov/centers/upper-midwest-water-science-center).
