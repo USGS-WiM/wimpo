@@ -95,6 +95,8 @@ Advance the version when adding features, fixing bugs or making minor enhancemen
 
 To push tags to remote origin: `git push origin --tags`
 
+When a new release (or version) occurs, the Unreleased section of the [CHANGELOG.md](CHANGELOG.md) changes into a new release version section.
+
 *Note that your alias for the remote origin may differ.
 
 ## Authors

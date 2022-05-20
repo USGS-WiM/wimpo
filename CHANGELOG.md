@@ -7,19 +7,27 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased](link to development branch)
 
-### Added
+### Added 
 
 -
 
-### Changed
+### Changed  
 
 -
 
-### Removed
+### Deprecated 
 
 -
 
-### Fixed
+### Removed 
+
+- 
+
+### Fixed  
+
+- 
+
+### Security  
 
 - 
 
@@ -27,16 +35,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
--   
-
-### Changed
-
--   
-
-### Removed
-
--
+-   Added additional information about the Changelog to the Readme
 
 ### Fixed
 
-- 
+- Fixed Spelling errors in the Readme
