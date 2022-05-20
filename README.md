@@ -106,7 +106,7 @@ See also the list of [contributors](../../graphs/contributors) who participated 
 
 ## License
 
-This project is licensed under the Creative Commons CC0 1.0 Universal License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Creative Commons CC0 1.0 Universal License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Suggested Citation
 In the spirit of open source, please cite any re-use of the source code stored in this repository. Below is the suggested citation:
@@ -114,7 +114,7 @@ In the spirit of open source, please cite any re-use of the source code stored i
 `This project contains code produced by the Web Informatics and Mapping (WIM) team at the United States Geological Survey (USGS). As a work of the United States Government, this project is in the public domain within the United States. https://wim.usgs.gov`
 
 ## Scientific Citations
-This project implements methodology or uses data from the following reports and data releases:
+This project implements methodology or uses data from the following reports and data releases. See the [Scientific_Documentation.md](Scientific_Documentation.md) file for details.
 
 <!-- Delete section if not applicable -->
 <!-- If there are too many citations to reasonably list, provide some information about the data or where citations can be found -->
