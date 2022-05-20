@@ -113,6 +113,15 @@ In the spirit of open source, please cite any re-use of the source code stored i
 
 `This project contains code produced by the Web Informatics and Mapping (WIM) team at the United States Geological Survey (USGS). As a work of the United States Government, this project is in the public domain within the United States. https://wim.usgs.gov`
 
+## Scientific Citations
+This project implements methodology or uses data from the following reports and data releases:
+
+<!-- Delete section if not applicable -->
+<!-- If there are too many citations to reasonably list, provide some information about the data or where citations can be found -->
+
+`Doe, J.E., Smith, A.B., and Doe, J.M., 2022, Title of the report: U.S. Geological Survey Scientific Investigations Report XXXX–XXXX, XX p., https://doi.org/XX.XXXX/sirXXXXXXXX.`
+
+`Doe, J.E., Smith, A.B., and Doe, J.M., 2022, Data release for described data: U.S. Geological Survey data release, https://doi.org/XX.XXXX/XXXXXXXX.`
 
 ## Acknowledgments
 
