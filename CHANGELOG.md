@@ -5,21 +5,38 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/USGS-WiM/stnweb2/tree/dev)
+## [Unreleased](https://github.com/USGS-WiM/projectName/tree/dev)
 
-### Added
-
--
-
-### Changed
+### Added 
 
 -
 
-### Removed
+### Changed  
 
 -
 
-### Fixed
+### Deprecated 
+
+-
+
+### Removed 
 
 - 
 
+### Fixed  
+
+- 
+
+### Security  
+
+- 
+
+## [v0.1.0](https://github.com/USGS-WiM/projectName/releases/tag/v0.1.0) - 2022-01-17
+
+### Added
+
+- Added a new specific feature.
+
+### Fixed
+
+- Fixed spelling errors.
