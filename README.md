@@ -29,7 +29,7 @@ other command
 
 ## Building and testing
 
-If applicable, explain how to build and test the applciation. 
+If applicable, explain how to build and test the application. 
 
 ## Development Workflow
 
@@ -37,7 +37,7 @@ Explain the desired workflow. This section is optional, and more useful in the c
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system. **Do not include any credentials, IP addresses, or other sensitive information**
+Add additional notes about how to deploy this on a live system. **Do not include any credentials, IP addresses, or other sensitive information.**
 
 ## Built With
 
