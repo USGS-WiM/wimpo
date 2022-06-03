@@ -33,7 +33,7 @@ If applicable, explain how to build and test the application.
 
 ## Development Workflow
 
-Explain the desired workflow for development. This should be outlined by the lead developer of the repository, based on the guidelines and requirements laid out in the [WIM Collaborative Development Constitution](https://github.com/USGS-WiM/wimfo/tree/dev/Development/Development_at_WIM/Application_Standards).
+Explain the desired workflow for development. This should be outlined by the lead developer of the repository, based on the guidelines and requirements detailed in the [WIM Collaborative Development Constitution](https://github.com/USGS-WiM/wimfo/tree/dev/Development/Development_at_WIM/Application_Standards).
 
 ## Deployment
 
