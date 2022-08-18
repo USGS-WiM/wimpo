@@ -1,4 +1,4 @@
-This is a template repository for new WIM repositories. It contains the required repository files ([explanation here](https://github.com/USGS-WiM/wimfo/blob/dev/Development/wimpo_template_repository.md)) and starter README text (below).  (_Delete this sentence when editing README_)  
+This is a template repository for new WIM repositories. It contains the required repository files ([explanation here](https://github.com/USGS-WiM/wimfo/blob/dev/Development/Development_at_WIM/Application_Standards/wimpo_template_repository.md)) and starter README text (below).  (_Delete this sentence when editing README_)  
 
 ![WiM](wim.png)
 
