@@ -70,7 +70,7 @@ When a new release (or version) occurs, change the Unreleased section of the [CH
 
 See also the list of [contributors](../../graphs/contributors) who participated in this project.
 
-## license
+## License
 
 This project is licensed under the Creative Commons CC0 1.0 Universal License - see the [LICENSE.md](LICENSE.md) file for details.
 
