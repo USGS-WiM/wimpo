@@ -9,7 +9,7 @@ One Paragraph of project description goes here
 
 ### Prerequisites
 
-Prerequisities needed to install the software and how to install them
+Prerequisites needed to install the software and how to install them
 
 
 ### Installing
@@ -41,7 +41,7 @@ Add additional notes about how to deploy this on a live system. **Do not include
 
 ## Built With
 
-This where you list the main dependencies/software packages used. Include a link and a short description of how it is used in your project. Below are just some examples. 
+This is where you list the main dependencies/software packages used. Include a link and a short description of how it is used in your project. Below are just some examples. 
 
 * [Angular](https://angular.io/) - The main web framework used
 * [NPM](https://www.npmjs.com/) - Dependency Management
@@ -91,7 +91,7 @@ This project implements methodology or uses data from the following reports and 
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
+* Hat tip to anyone whose code was used
 * Inspiration Note
 
 ## About WIM
